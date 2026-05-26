@@ -1,0 +1,29 @@
+.about h1 {
+    font-size: 3rem;
+}
+
+.about p {
+    color: #aaa;
+    margin-top: 15px;
+    max-width: 600px;
+}
+
+.skills {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #111;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background: #00aaff;
+    transform: translateY(-10px);
+}
